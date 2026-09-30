@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Habit Tracker</h1>
+    <form id="add-form">
+      <input id="habit-name" type="text" placeholder="New habit" aria-label="Habit name" required>
+      <button type="submit">Add</button>
+    </form>
+    <p id="form-error" class="form-error" role="alert" hidden></p>
+    <ul id="habits"></ul>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
